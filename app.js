@@ -7,6 +7,7 @@ const User = require('./models/User');
 const rooms = ['general', 'tech', 'finance', 'crypto'];
 const cors = require('cors');
 
+
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(cors());
